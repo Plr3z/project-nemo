@@ -1,11 +1,15 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "mqtt": "^5.10.0"
-  },
+  "name": "project-teste",
+  "version": "1.0.0",
+  "description": "A simple REST API using Express",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "mqtt": "^5.10.0"
   }
 }
